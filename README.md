@@ -10,10 +10,12 @@ This project uses:
 - Docker
 - httpx (async HTTP client)
 
+
 ⚙️ Environment Variables
 
 Create a .env file in project root:
 
+```
 PG_USER=pokeflip_user
 PG_PASSWORD=password
 PG_DB=pokeflip
@@ -21,12 +23,17 @@ PG_HOST=db
 PG_PORT=5432
 
 DB_URL=postgresql+asyncpg://pokeflip_user:password@db:5432/pokeflip
+```
+
 
 🐳 Run with Docker
 
 Build and start containers:
 
+```
 docker compose up --build
+```
+
 
 🧠 Architecture
 
